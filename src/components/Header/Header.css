@@ -1,0 +1,119 @@
+
+
+.header-outer-div{
+    background-image: url('../../Data/img/bg.png');
+    height: 60rem;
+    /* width: 100%; */
+ 
+}
+
+.logo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.heading-div{
+    /* width:70%;
+    margin-left: 15%; */
+    padding: 3rem 8rem;
+
+}
+
+.Ramaera{
+    font-family: Zilap Orion Personal Use;
+    /* width: 70%;
+    margin:0 15%; */
+font-size: 6.5rem;
+font-weight: 400;
+line-height: 7.5rem;
+letter-spacing: 0em;
+text-align: center;
+background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.Ramaera-bottom-line{
+    font-family: Montserrat Alternates;
+font-size: 4.5rem;
+font-weight: 400;
+line-height: 4.5rem;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+
+.header-btn{
+    height: 3.75rem;
+    width: 25%;
+    border: 1px solid white;
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    color: white;
+    text-align: center;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin-left: 40%;
+}
+
+@media (max-width:992px){
+    .Ramaera{
+font-size: 5.5rem;
+line-height: 5.5rem;
+    } 
+    .Ramaera-bottom-line{
+        font-size: 3.5rem;
+        line-height: 3.5rem; 
+    }
+}
+
+@media (max-width:786px){
+    .Ramaera{
+font-size: 4.5rem;
+line-height: 4.5rem;
+    } 
+    .Ramaera-bottom-line{
+        font-size: 3rem;
+        line-height: 3rem; 
+    }
+}
+
+@media (max-width:670px){
+    .Ramaera{
+font-size: 3.5rem;
+line-height: 3.5rem;
+    } 
+    .Ramaera-bottom-line{
+        font-size: 2.5rem;
+        line-height: 2.5rem; 
+    }
+}
+
+@media (max-width:600px){
+    .Ramaera{
+font-size: 2.25rem;
+line-height: 2.25rem;
+    } 
+    .Ramaera-bottom-line{
+        font-size: 1.75rem;
+        line-height: 1.75rem; 
+    }
+}
+
+@media (max-width:480px){
+    .Ramaera{
+font-size: 1.5rem;
+line-height: 1.5rem;
+    } 
+    .Ramaera-bottom-line{
+        font-size: 1rem;
+        line-height: 1rem; 
+    }
+    .header-btn{
+        margin: 0;
+        margin-left: 1rem;
+        height: 2rem;
+        width: 8rem;
+    }
+}

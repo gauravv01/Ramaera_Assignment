@@ -1,0 +1,108 @@
+
+.group-outer{
+    padding: 5rem 7rem ;
+}
+
+.group-outer h2{
+    font-family: Zilap Orion Personal Use;
+    font-size: 4.75rem;
+    font-weight: 400;
+    line-height: 6.5rem;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.group-outer p{
+    font-family: Montserrat Alternates;
+font-size: 2rem;
+font-weight: 400;
+line-height: 2rem;
+letter-spacing: 0em;
+text-align: center;
+background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+@media(max-width:686px){
+    .group-outer h2{
+        font-size: 3.75rem;
+        font-weight: 400;
+        line-height: 3.75rem;
+    }
+    .group-outer p{
+        font-size: 1.5rem;
+font-weight: 400;
+line-height: 1.5rem;
+    }
+}
+
+@media(max-width:524px){
+    .group-outer h2{
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 3rem;
+    }
+    .group-outer p{
+        font-size: 1.25rem;
+font-weight: 200;
+line-height: 1.25rem;
+    }
+}
+
+
+@media(max-width:440px){
+    .group-outer h2{
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 2rem;
+    }
+    .group-outer p{
+        font-size: 1rem;
+font-weight: 150;
+line-height: 1rem;
+    }
+}
+
+@media(max-width:380px){
+    .group-outer h2{
+        font-size: 1.5rem;
+        font-weight: 200;
+        line-height: 1.5rem;
+    }
+    .group-outer p{
+        font-size: 0.75rem;
+font-weight: 150;
+line-height: 0.75rem;
+    }
+}
+
+@media(max-width:340px){
+    .group-outer h2{
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 1rem;
+    }
+    .group-outer p{
+        font-size: 0.5rem;
+font-weight: 150;
+line-height: 0.5rem;
+    }
+}
+
+
+@media(max-width:300px){
+    .group-outer h2{
+        font-size: 0.75rem;
+        font-weight: 200;
+        line-height: 0.75rem;
+    }
+    .group-outer p{
+        font-size: 0.3rem;
+font-weight: 150;
+line-height: 0.3rem;
+    }
+}

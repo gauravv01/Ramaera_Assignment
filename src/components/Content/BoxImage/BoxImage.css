@@ -1,0 +1,17 @@
+.box-div{
+height: 20rem;
+width: 100%;
+position: absolute;
+}
+
+.group-box{
+    position: absolute;
+    width: 7rem;
+    object-fit: contain;
+    /* height: 18rem; */
+    /* left: -2rem; */
+    /* top: 1357.85px; */
+    margin-top: 3rem;
+
+
+}
